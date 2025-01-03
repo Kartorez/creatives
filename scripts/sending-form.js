@@ -57,7 +57,7 @@ function sendingForm() {
             //перевірка чи це email
             if (input.name === "email" && !validateEmail(input)) {
                 error++;
-                formAddError(input, "*nvalid email, for example: example@mail.com.");
+                formAddError(input, "*Invalid email, for example: example@mail.com.");
                 continue;
             }
             
