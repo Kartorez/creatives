@@ -330,7 +330,7 @@ body {
 .slide__image {
   max-height: 26.875em;
   object-fit: cover;
-  transition: color 0.3s;
+  transition: transform 0.3s;
 }
 .slide__image:hover{
   transform: scale(1.1);
@@ -342,6 +342,8 @@ body {
   line-height: 1.875rem;
   margin-top: 1.111111em;
   text-transform: uppercase;
+}
+.slide__titel>a{
   transition: color 0.3s;
 }
 .slide__titel>a:hover{
